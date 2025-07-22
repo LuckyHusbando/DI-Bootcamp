@@ -26,9 +26,9 @@ for i in range(0,11,2):
 
 #A range is required in any sequence
 
-for i in enumerate(fruits):
-    if fruit == 'apple':
-        fruits[i] = 'Windows is better'
-    else:     
+#for i in enumerate(fruits):
+    #if fruit == 'apple':
+        #fruits[i] = 'Windows is better'
+    #else:     
 
 #Try Wire Loop exercises next time
