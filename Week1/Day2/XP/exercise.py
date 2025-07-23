@@ -41,10 +41,19 @@ else:
 
 #Exercise 8
 
-my_name = Derek
+my_name = "Derek"
 User_name = input("What is your name? ")
-if user_name == my_name:
+if User_name == my_name:
     print("Wow, that's crazy! That is my name!")
 else:
     print("You have a cool name!")
+    
+#Exercise 9
+
+Minimum_Height = int(145)
+Minimum_Height: input("What is your height in centimeters? ")
+if Minimum_Height >= int(145):
+    print("You are tall enough to ride the roller coaster!")
+else:
+    print("I am sorry, you are too short to ride the roller coaster.")
     
