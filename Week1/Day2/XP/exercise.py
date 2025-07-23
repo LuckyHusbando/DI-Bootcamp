@@ -33,7 +33,18 @@ if B > A:
 
 #Exercise 7
 
-user_name = input("Please insert a number.")
-print(user_name)
+num = int(input("Please enter a number: "))
+if (num % 2) == 0:
+    print("{0} is even")
+else:
+    print("{0} is odd")
 
-If
+#Exercise 8
+
+my_name = Derek
+User_name = input("What is your name? ")
+if user_name == my_name:
+    print("Wow, that's crazy! That is my name!")
+else:
+    print("You have a cool name!")
+    
