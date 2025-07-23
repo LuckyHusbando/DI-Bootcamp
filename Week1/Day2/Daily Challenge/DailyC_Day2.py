@@ -8,7 +8,7 @@ if len(user_input) < 10:
     print("String not long enough")
 elif len(user_input) > 10:
     print("String too long")
-else print("Perfect string")
+else: print("Perfect string")
 
 first_char = user_input[0]
 last_char = user_input[-1]
