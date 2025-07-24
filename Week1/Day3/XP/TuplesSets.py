@@ -25,6 +25,11 @@ print(cities.count('NYC'))
 #We can use Index
 print(cities[1])
 #Disregard - print(cities.index('SP'))
+#Index()
+#Count()
+#Sum()
+#Min()
+#Max()
 
 # This can't be done, Tuples cannot be appended - cities[1] = 'RJ'
 
