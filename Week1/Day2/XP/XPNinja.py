@@ -31,15 +31,15 @@ False
 False
 True
 False
-X will be True
-Y will be False
-a will be 5
-b will be 10
+#X will be True
+# Y will be False
+# a will be 5
+# b will be 10
 
-x is True
-y is False
-a: 5
-b: 10
+# x is True
+# y is False
+# a: 5
+# b: 10
 
 #Exercise 4
 
@@ -52,7 +52,7 @@ my_text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \
            Excepteur sint occaecat cupidatat non proident, \
            sunt in culpa qui officia deserunt mollit anim id est laborum."
 
-print.len(my_text)
+len(my_text)
 
 #Exercise 5
 
