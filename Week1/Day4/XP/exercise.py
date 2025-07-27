@@ -55,11 +55,28 @@ print(f"Hello, {my_name}! You have entered the correct name!")
 
 #Exercise 7 - Favorite Fruits
 
+# Ask the user for their favorite fruits
+favorite_fruits_input = input("What are your favorite fruits? Please separate them with spaces: ")
 
+# Store these fruits in a list
+favorite_fruits = favorite_fruits_input.lower().split()
+
+# Ask the user to input the name of any fruit
+chosen_fruit = input("Enter the name of any fruit: ").lower()
+
+# Check if the chosen fruit is in their list of favorite fruits
+if chosen_fruit in favorite_fruits:
+    print("You chose one of your favorite fruits! Enjoy!")
+else:
+    print("You chose a new fruit. I hope you enjoy it!")
 
 #Exercise 8 - Pizza Toppings
 
+
+
 #Exercise 9 - Cinemax Tickets
+
+
 
 #Exercise 10 - Sandwich Orders
 
