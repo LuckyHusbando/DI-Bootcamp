@@ -72,11 +72,113 @@ else:
 
 #Exercise 8 - Pizza Toppings
 
+toppings = []
+base_price = 10.00
+topping_cost = 2.50
 
+print("Let's build your pizza! Enter toppings one-by-one. Type 'quit' when you are finished.")
+
+while True:
+    topping = input("Enter a topping: ").lower()
+    if topping == 'quit':
+        break
+    else:
+        toppings.append(topping)
+        print(f"Adding {topping} to your pizza.")
+
+print("\n---") #Horizontal line for better readability. 
+
+print("\nYour pizza will have the following toppings:")
+for topping in toppings:
+    print(f"- {topping.title()}")
+
+total_cost = base_price + (len(toppings) * topping_cost)
+print(f"\nTotal cost of your pizza: ${total_cost:.2f}")
 
 #Exercise 9 - Cinemax Tickets
 
+total_cost = 0
 
+print("Enter the age of each family member. Type 'done' when finished.")
+
+while True:
+    age_input = input("Enter age (or 'done'): ")
+    if age_input.lower() == 'done':
+        break
+
+    try:
+        age = int(age_input)
+        if age < 0: 
+            print("Age cannot be negative. Please enter a valid age.")
+            continue
+
+        if age < 3:
+            print("Ticket: Free.")
+        elif 3 <= age <= 12:
+            total_cost += 10
+            print("Ticket: $10")
+        else:
+            total_cost += 15
+            print("Ticket: $15")
+    except ValueError:
+        print("Invalid input. Please enter a number for age or 'done'.")
+
+print(f"\nTotal ticket cost for the family: ${total_cost}")
+
+#Bonus
+
+attendees = []
+print("Enter the age of each person. Type 'done' when finished.")
+
+while True:
+    age_input = input("Enter age (or 'done'): ")
+    if age_input.lower() == 'done':
+        break
+
+    try:
+        age = int(age_input)
+        if age < 0:
+            print("Age cannot be negative. Please enter a valid age.")
+            continue
+        attendees.append(age)
+    except Valueerror:
+        print("Invalid input. Please enter a number for age or 'done'.")
+
+#This is for filtering out people who are not allowed to watch. Viewers must be 16-21.
+
+allowed_attendees = []
+for age in attendees:
+    if 16 <= age <= 21:
+        allowed_attendees.append(age)
+
+if allowed_attendees:
+    print("\nThe following people are allowed to watch the movie.")
+    for age in allowed_attendees:
+        print(f"- Age: {age}")
+else:
+    print("\nNo one in the group is allowed to watch the movie.")
 
 #Exercise 10 - Sandwich Orders
 
+sandwich_orders = ["Tuna", "Pastrami", "Avocado", "Pastrami", "Egg", "Chicken", "Pastrami"]
+finished_sandwiches = []
+
+print("We're sorry, but the deli has run out of Pastrami.")
+
+#Remove all instances of "Pastrami":
+while "Pastrami" in sandwich_orders:
+    sandwich_orders.remove("Pastrami")
+
+#Prepare sandwiches
+while sandwich_orders:
+    current_sandwich = sandwich_orders.pop(0) #Get the first sandwich in the list
+    print(f"I made your {current_sandwich} sandwich.")
+    finished_sandwiches.append(current_sandwich)
+
+print("\n---")
+
+print("\nHere are all the sandwiches that were made: ")
+for sandwich in finished_sandwiches:
+    print(f"- {sandwich}")
+
+    
