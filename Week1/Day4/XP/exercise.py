@@ -141,7 +141,7 @@ while True:
             print("Age cannot be negative. Please enter a valid age.")
             continue
         attendees.append(age)
-    except Valueerror:
+    except ValueError:
         print("Invalid input. Please enter a number for age or 'done'.")
 
 #This is for filtering out people who are not allowed to watch. Viewers must be 16-21.
