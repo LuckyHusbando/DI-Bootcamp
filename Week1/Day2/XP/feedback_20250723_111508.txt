@@ -1,0 +1,12 @@
+URL: https://github.com/LuckyHusbando/DI-Bootcamp/blob/main/Week1/Day2/XP/exercise.py
+suggestions for improvement:
+- In Exercise 1, using a loop would be more efficient for repetitive printing.
+- Exercise 3 should be code, not just answers.
+- Exercise 7 and 9 have minor formatting issues in their print statements and variable assignments.  Exercise 9 also has a logic error where input is not assigned to Minimum_Height.
+- In Exercise 9, you should convert the user's input to an integer before comparison
+Brief justification:
+- correctness: The code correctly addresses most exercises. Exercise 1 uses a concise method to print multiple lines. Exercise 2 accurately calculates the expression. Exercise 4 and 5 demonstrate variable usage and string formatting. Exercise 6 successfully implements a conditional statement. Exercise 7 and 8 correctly handle user input and conditional logic. Exercise 9 has a logic error in the height comparison. Overall, the code demonstrates understanding of print statements, variables, mathematical operations, comparison operators, if statements, and user input – all topics covered in the chapter.  The minor errors are outweighed by the substantial correct implementation.
+- readability: The code is generally well-formatted and easy to follow. Variable names are mostly descriptive.  Minor improvements in formatting (Exercise 7, 9) and potentially using a loop for Exercise 1 would enhance readability.
+- performance: The code is efficient for the tasks performed.  Exercise 1 could be optimized with a loop, but the current solution is acceptable.  The other exercises use efficient approaches with no noticeable performance issues.
+- security: No security vulnerabilities are present in the code. The code only interacts with user input in a safe manner (no command injection or similar risks).
+

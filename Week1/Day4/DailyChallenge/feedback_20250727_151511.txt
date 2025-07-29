@@ -1,0 +1,11 @@
+URL: https://github.com/LuckyHusbando/DI-Bootcamp/blob/main/Week1/Day4/DailyChallenge/D4-DC.py
+suggestions for improvement:
+- Challenge 1: The code incorrectly calculates multiples. It should multiply the input number by the loop counter (i), not always by 1.
+- Challenge 1: Add input validation to handle non-integer inputs gracefully.
+- Challenge 2: The code is efficient and correctly removes consecutive duplicate letters. No major improvements needed here.
+Brief justification:
+- correctness: Challenge 1 receives a 0/100 because the core logic for generating multiples is flawed.  It repeatedly appends the original number instead of its multiples. The chapter explicitly requires generating a list of multiples using multiplication. Challenge 2 is correctly implemented, achieving a 100/100.  It uses loops, strings, and conditional statements as specified in the chapter to remove consecutive duplicate letters. The overall correctness score is an average of the two challenges.
+- readability: The code is well-structured and easy to follow for both challenges. Variable names are descriptive.  The use of comments could be improved in Challenge 1 to explain the logic more explicitly. The overall readability is good.
+- performance: The time complexity of both solutions is linear (O(n)), which is efficient for these tasks.  There's no unnecessary computation or data structure usage.  For small inputs, the performance difference is negligible, but for very large inputs, optimized algorithms might be considered, although not strictly required for this assignment.
+- security: No security vulnerabilities are present in the provided code. The code only deals with user inputs and doesn't interact with external systems or handle sensitive data.
+
