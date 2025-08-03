@@ -1,0 +1,13 @@
+URL: https://github.com/LuckyHusbando/DI-Bootcamp/blob/main/Week1/Day4/XP/exercise.py
+suggestions for improvement:
+- In Exercise 3, the `basket.clear` line is missing parentheses to actually call the method.
+- In Exercise 4, while the code generates the list correctly, a more efficient approach would be to use a loop and leverage floating-point arithmetic to generate the sequence.
+- In Exercise 5, the code explicitly creates `Test_numbers` rather than using a more concise `range` within the `for` loop. Also, the even index loop could be improved to iterate over the range directly rather than iterating over the entire list.
+- In Exercise 8, error handling could be added for cases where the user enters non-numeric data for toppings.
+- In Exercise 9, the age validation could be made more robust (e.g., checking for extremely large ages), and handling of non-numeric input could be improved.
+Brief justification:
+- correctness: The code accurately addresses all the exercises as outlined in the chapter content.  Each exercise directly implements the specified data structures (sets, tuples, lists) and functionalities (adding, removing, concatenating, looping, etc.) described in the chapter.
+- readability: The code is generally well-structured and easy to follow. Variable names are descriptive, and the logic is mostly straightforward. Minor improvements in formatting and commenting would enhance readability further. 
+- performance: The code's performance is acceptable for these small-scale exercises. However, there are opportunities for optimization. For example, the `for` loop in Exercise 5 could be optimized by directly iterating over a `range` instead of a pre-created list.  The methods to remove all occurrences of Pastrami in Exercise 10 could also be done more efficiently in one pass.
+- security: The code doesn't contain any obvious security vulnerabilities.  Input validation is mostly present where appropriate (though improvements are suggested), mitigating potential issues such as erroneous input causing crashes.
+

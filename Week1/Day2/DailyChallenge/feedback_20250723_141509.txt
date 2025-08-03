@@ -1,0 +1,11 @@
+URL: https://github.com/LuckyHusbando/DI-Bootcamp/blob/main/Week1/Day2/DailyChallenge/DailyC_Day2.py
+suggestions for improvement:
+- The code could include more robust input validation to handle non-string inputs.  Currently, if a user enters a number, it will be treated as a string, which is not explicitly addressed in the requirements but is good practice.
+- Add a more descriptive comment before the `for` loop to explain its purpose more clearly.
+- Consider using more descriptive variable names (e.g., `jumbledString` instead of `Jumbled`).
+Brief justification:
+- correctness: The code accurately and completely fulfills all the requirements outlined in the Chapter Content/Questions.  It handles string length validation, prints the first and last characters, builds the string character by character using a `for` loop, and includes the bonus jumbling functionality using `random.shuffle`.  All of these aspects directly address the learning objectives of Python basics, conditionals, and loops.
+- readability: The code is generally well-structured and easy to follow.  Variable names are mostly clear, and the logic is straightforward. Minor improvements in comments and variable naming would enhance readability further.
+- performance: The code's performance is efficient for the task. The algorithms used are simple and have a linear time complexity, which is appropriate for the scale of the problem.
+- security: No security vulnerabilities are apparent in this code. It does not handle any external data sources or perform any operations that could introduce security risks.
+
