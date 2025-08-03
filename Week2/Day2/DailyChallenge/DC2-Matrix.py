@@ -1,5 +1,6 @@
 #Solve The Matrix
 
+# Step 1: Transforming the String into a 2D List
 MATRIX_STR = '''
 7ir
 Tsi
@@ -7,31 +8,47 @@ h%x
 i ?
 sM# 
 $a 
-#t%'''       
+#t%'''
 
-matrix = []
+# Clean up the string and split into rows
+rows_str = MATRIX_STR.strip().splitlines()
 
-def analyze_matrix(message):
-    matrix = message.split("\n")
-    if "" in matrix:
-        matrix.remove("")
-    for index, item in enumerate(matrix):
-        matrix[index] = [i for i in item]
-    return decode_matrix(handle_2d_list(matrix))
+# Determine the number of rows and columns for a rectangular grid
+num_rows = len(rows_str)
+num_cols = max(len(row) for row in rows_str)
 
-def handle_2d_list(list_2d):
-    matrix_decode = []
+# Create the 2D list (matrix) by padding shorter rows with spaces
+matrix = [list(row.ljust(num_cols)) for row in rows_str]
 
-    for i in range (len(list_2d[0])):
-        for j in range(len(list_2d)):
-            matrix_decode.append(list_2d[j][i])
-    return matrix_decode
+# --- Processing the Matrix ---
 
-def decode_matrix(matrix_string):
-    decoded_string = ""
-    for letter in matrix_string:
-        if letter.isalpha():
-            decoded_string += letter
+# Step 2: Processing Columns
+# Step 3: Filtering Alpha Characters
+# Step 4: Replacing Symbols with Spaces
+
+decoded_message = ""
+is_last_char_alpha = False
+
+# Iterate through columns, then rows
+for col_idx in range(num_cols):
+    for row_idx in range(num_rows):
+        # Access the character at the current grid position
+        char = matrix[row_idx][col_idx]
+        
+        # Check if the character is an alphabet letter
+        if char.isalpha():
+            decoded_message += char
+            is_last_char_alpha = True
         else:
-            decoded_string += " "
-#TO BE FINISHED
+            # If the last character was an alphabet, and the current is not,
+            # it indicates a transition that should be a space.
+            if is_last_char_alpha:
+                decoded_message += ' '
+            is_last_char_alpha = False
+
+# Step 5: Constructing the Secret Message
+# The final decoded_message might have a trailing space, so we strip it.
+decoded_message = decoded_message.strip()
+
+# Print the decoded message
+print(decoded_message)
