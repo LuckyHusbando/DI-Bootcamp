@@ -1,0 +1,11 @@
+URL: https://github.com/LuckyHusbando/DI-Bootcamp/blob/main/Week2/Day2/DailyChallenge/DC2-Matrix.py
+suggestions for improvement:
+- The code could be slightly improved by using more descriptive variable names (e.g., `column_index` instead of `col_idx`).
+- Adding comments to explain the logic behind the `is_last_char_alpha` variable would enhance readability.
+- The performance could be marginally improved by avoiding repeated calls to `isalpha()` within the loop if possible; however, the performance impact of this is minor for the given input size.
+Brief justification:
+- correctness: The code correctly implements all five steps outlined in the Chapter Content/Questions. It transforms the matrix string into a 2D list, iterates through the columns, filters alpha characters, replaces symbol groups with spaces, and constructs the final message.  The output ('This is a secret message') directly addresses the core decryption task as described.
+- readability: The code is well-structured and mostly easy to follow.  The use of descriptive variable names (mostly) and clear comments aids in understanding its functionality. Minor improvements in variable names and comments would enhance readability further.
+- performance: The code's performance is efficient for the given input size. The nested loops have a time complexity of O(m*n), where 'm' is the number of rows and 'n' is the number of columns, which is appropriate for this task. Minor optimization (as noted in feedback) could improve it slightly, but it is not a major concern.
+- security: The code does not involve any security-sensitive operations, so there are no security concerns.
+
