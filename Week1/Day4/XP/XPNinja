@@ -1,0 +1,23 @@
+#XP Ninja - Week 1 - Day 4
+
+import math
+
+def calculate_q(d_values_str):
+    """Calculates Q for a comma-separated string of D values."""
+    c = 50
+    h = 30
+    
+    d_values = [int(d.strip()) for d in d_values_str.split(',')]
+    
+    results = []
+    for d in d_values:
+        q = math.sqrt((2 * c * d) / h)
+        results.append(int(q))
+        
+    return ','.join(map(str, results))
+
+user_input = "100,150,180"
+output = calculate_q(user_input)
+
+print(f"User Input: {user_input}")
+print(f"Output: {output}")
