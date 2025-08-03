@@ -1,0 +1,12 @@
+URL: https://github.com/LuckyHusbando/DI-Bootcamp/blob/main/Week1/Day6/Exercises/ExerciseXP.py
+suggestions for improvement:
+- In Exercise 2, the use of a separate function `calculate_and_print_costs` enhances readability and organization.  However, consider separating the user input section from the core calculation logic for better modularity.
+- In Exercise 3, the comments clearly describe each step, but you could improve readability by using more descriptive variable names (e.g., instead of `dict1`, use `character_index_mapping`).
+- Exercise 3's bonus section could be improved by handling potential key collisions during the merge more explicitly (though not strictly required by the prompt).
+- The code for Exercise 4 is concise and efficient, leveraging dictionary comprehensions effectively.  No significant improvements needed here.
+Brief justification:
+- correctness: The code directly and accurately addresses all exercises.  Exercise 1 correctly converts lists to dictionaries using `zip`. Exercise 2 accurately calculates ticket costs based on age and handles both pre-defined and user-input data. Exercise 3 correctly manipulates the dictionary as specified, including using methods like `.pop()` and `.update()`. Exercise 4 creates the three dictionaries as specified, using a variety of methods (dictionary comprehension and explicit loops).  All functionalities directly align with the chapter's focus on dictionaries, loops, and conditionals.
+- readability: The code is generally well-structured and easy to follow.  Comments are present, and the logic is clear in most parts.  However, some variable names could be more descriptive, and minor organizational improvements would further enhance readability.
+- performance: The algorithms used are efficient for the tasks.  The use of dictionary comprehensions in Exercise 4 is particularly efficient.  There are no significant performance bottlenecks.  The time complexity of the functions is reasonable for the provided input sizes.
+- security: The code does not have any obvious security vulnerabilities. Input validation is performed in Exercise 2 to handle potential errors when converting user input to integers.  There are no issues related to SQL injection or other security risks since it only uses basic input/output and in-memory data structures.
+
