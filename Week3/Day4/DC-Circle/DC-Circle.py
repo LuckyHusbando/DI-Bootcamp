@@ -14,7 +14,7 @@ class Circle:
     def __repr__(self):
         return (f'Circle(radius={self.radius}, diameter={self.diameter}, area={self.area}, circumference={self.circumference:.2f})')
     
-    def __add__(self, other_circle):
+    def __iadd__(self, other_circle):
         if not isinstance(other_circle, Circle):
             raise TypeError("Cannot add a circle to a non-circle object.")
         new_radius = self.radius + other_circle.radius
