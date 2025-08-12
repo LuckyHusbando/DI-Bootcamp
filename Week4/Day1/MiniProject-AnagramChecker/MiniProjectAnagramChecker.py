@@ -4,10 +4,8 @@
 
 import os
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-
-with open(f'{dir_path}\sowpods.txt', 'r', encoding='utf-8') as file_obj:
-    file_content = file_obj.read()
+current_dir = os.path.dirname(os.path.realpath(__file__))
+file_path = os.path.join(current_dir, 'sowpods.txt')
 
 class AnagramChecker:
 

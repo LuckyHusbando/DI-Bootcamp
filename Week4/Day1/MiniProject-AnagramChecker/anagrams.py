@@ -1,3 +1,4 @@
+import os
 from MiniProjectAnagramChecker import AnagramChecker
 
 def get_user_input():
@@ -33,8 +34,15 @@ def main():
     print("Welcome to the Anagram Checker!")
 
     #Initialize the AnagramChecker Instance
-    #Aassuming 'sowpods.txt' is in the same directory.
-    checker = AnagramChecker()
+    #Aassuming 'sowpods.txt' is in the same directory
+    
+    # Get the directory of the current script file
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    # Create the full, absolute path to the sowpods.txt file
+    file_path = os.path.join(current_dir, 'sowpods.txt')
+    
+    # Pass the correct file path to the AnagramChecker
+    checker = AnagramChecker(file_path=file_path)
 
     while True:
         user_word = get_user_input()
