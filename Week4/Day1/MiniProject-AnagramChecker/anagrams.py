@@ -3,13 +3,13 @@ from MiniProjectAnagramChecker import AnagramChecker
 def get_user_input():
     '''Prompts the user for a word and validates the input.'''
     while True:
-        user_input = input("Enter a word to find its anagrams (or type 'exit' to quit): ").strip
+        user_input = input("Enter a word to find its anagrams (or type 'exit' to quit): ").strip()
 
         if user_input.lower() == 'exit':
             return None
         
-        #Checks for multiple words
-        if ' ' in user_input:
+        #Checks for incorrect objects
+        if not user_input.isalpha():
             print("Error: Only alphabetic characters are allowed.")
             continue
 

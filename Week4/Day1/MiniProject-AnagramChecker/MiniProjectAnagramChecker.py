@@ -34,7 +34,7 @@ class AnagramChecker:
 
     def is_anagram(self, word1, word2):
          '''Checks if two words are anagrams of each other.'''
-         if len(word1) != len(word2) or word1.lower == word2.lower():
+         if len(word1) != len(word2) or word1.lower() == word2.lower():
             return False
          
          return sorted(word1.lower()) == sorted(word2.lower())
