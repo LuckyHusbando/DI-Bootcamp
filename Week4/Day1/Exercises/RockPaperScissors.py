@@ -52,9 +52,6 @@ class Game:
         
         print(f"\nYou selected {user_item}. The computer selected {computer_item}. You {result}!")
         return result
-    
-import os
-from game import Game
 
 def get_user_menu_choice():
     """

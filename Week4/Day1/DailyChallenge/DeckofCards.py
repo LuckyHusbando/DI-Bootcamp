@@ -1,5 +1,22 @@
 #Deck of Cards
 
+import random
+
+class Card:
+    """
+    Represents a single playing card with a suit and a value.
+    """
+    def __init__(self, suit, value):
+        self.suit = suit
+        self.value = value
+
+    def __repr__(self):
+        """
+        Returns a string representation of the Card object.
+        This allows for readable printing of card instances.
+        """
+        return f"{self.value} of {self.suit}"
+
 class Deck:
     """
     Represents a deck of 52 playing cards.
