@@ -46,3 +46,6 @@
 #1. https://github.com/supervaize/supervaizer
 #2. Create an account (https://stage.supervaize.com/)
 #3. Discount Code - DI202508 (Free Subscription)
+
+#How to get experience to be able to get your first job in coding/AI?
+#Design, make, and train an AI agent to do a specific task and showcase it to the businesses you are applying to!
