@@ -1,0 +1,34 @@
+DATABASE = A software/memory to store data in an organized way (via tables)
+Relational vs. Non-Relational
+We will learn a relational database called postgreSQL
+Relational is typically the best option since it focuses on data related via tables.
+SQL = Structured Query Language for database
+Postgres = RDBMS (Relational Database Management System)
+
+PGadmin - Visual Program (GUI) for Managing a server with PostgresSQL
+
+-Table Structure-
+
+Null value = The absence of a value.
+Field = The "label" of a column. 
+Row = 
+Column = 
+
+==Data Value==
+
+-Numberic - Integer, decimal, int
+-Strings
+-Boolean
+-Serial (Automatically implemented by 1)
+-Varchar (Text data)
+-Text (Long text data)
+-Datetime
+
+==Constraints==
+
+Ways of restricting what type of data you can put in a field.
+Not Null - Column cannot have a null value.
+Default - Provides a default value when no value is specified.
+Unique - No duplicate values (like ID numbers)
+Primary Key - Both unique -and- not null. 
+

@@ -1,0 +1,11 @@
+Table 1 - Primary Key (PK)
+
+Table 2 - Foreign Key (FK)
+
+Primary Key & Foreign Key are connected.
+
+Child table (2) has the foreign key. 
+Parent table (1) has the primary key.
+
+Child table can be the "orders" table.
+For each order, there is an item.
