@@ -9,3 +9,4 @@ Parent table (1) has the primary key.
 
 Child table can be the "orders" table.
 For each order, there is an item.
+
