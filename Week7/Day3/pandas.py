@@ -22,5 +22,3 @@ df.sort_values(by='Age')
 df[df['Age'] > 30]  # Selects rows where age is greater than 30
 
 df.groupby('City').mean()  # Groups data by city and calculates mean for each group
-
-pd.merge(df1, df2, on='common_column')
