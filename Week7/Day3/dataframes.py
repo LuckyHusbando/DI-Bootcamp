@@ -37,7 +37,28 @@ data = {
 
 df = pd.DataFrame(data)
 
-df.head()
-df.describe()
-df.info()
-#Sort + Filter = Group
+print("First 5 rows of the DataFrame:")
+print(df.head())
+
+print("\nStatistical summary of numerical columns:")
+print(df.describe())
+
+print("\nConcise summary of the DataFrame:")
+print(df.info())
+
+print("\nDataFrame sorted by Price:")
+sorted_by_price = df.sort_values(by='Price')
+print(sorted_by_price)
+
+print("\nBooks in the 'Sci-Fi' genre:")
+sci_fi_books = df[df['Genre'] == 'Sci-Fi']
+print(sci_fi_books)
+
+print("\nBooks with a Price above $17.00:")
+expensive_books = df[df['Price'] > 17.00]
+print(expensive_books)
+
+print("\nTotal copies sold by each Author:")
+copies_by_author = df.groupby('Author')['Copies Sold'].sum().reset_index()
+print(copies_by_author)
+
