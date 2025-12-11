@@ -1,71 +1,61 @@
 # Final Mini-Project - 12/11/2025
 
-import numpy as np # linear algebra
+import numpy as np # Note: numpy is imported but not explicitly used in this snippet
 import pandas as pd
-import sqlite3
-
-df_olist_customers = pd.read_csv('/kaggle/input/brazilian-ecommerce/olist_customers_dataset.csv')
-df_olist_sellers = pd.read_csv('/kaggle/input/brazilian-ecommerce/olist_sellers_dataset.csv')
-df_olist_order_reviews= pd.read_csv('/kaggle/input/brazilian-ecommerce/olist_order_reviews_dataset.csv')
-df_olist_order_items= pd.read_csv('/kaggle/input/brazilian-ecommerce/olist_order_items_dataset.csv')
-df_olist_products= pd.read_csv('/kaggle/input/brazilian-ecommerce/olist_products_dataset.csv')
-df_olist_geolocation= pd.read_csv('/kaggle/input/brazilian-ecommerce/olist_geolocation_dataset.csv')
-df_product_category_name_translation= pd.read_csv('/kaggle/input/brazilian-ecommerce/product_category_name_translation.csv')
-df_olist_orders = pd.read_csv('/kaggle/input/brazilian-ecommerce/olist_orders_dataset.csv')
-df_olist_order_payments= pd.read_csv('/kaggle/input/brazilian-ecommerce/olist_order_payments_dataset.csv')
-
-df_olist_customers.head()
+# import sqlite3 # Not strictly necessary if using pandas/sqlalchemy to interact
 
 from sqlalchemy import create_engine
-engine = create_engine('sqlite://', echo=False)
 
-# export the dataframe as a table 'playstore' to the sqlite engine
-df_olist_customers.to_sql("olist_customers", con =engine)
-df_olist_sellers.to_sql("olist_sellers", con =engine)
-df_olist_order_reviews.to_sql("olist_order_reviews", con =engine)
-df_olist_order_items.to_sql("olist_order_items", con =engine)
-df_olist_products.to_sql("olist_products_dataset", con =engine)
-df_olist_geolocation.to_sql("olist_geolocation", con =engine)
-df_product_category_name_translation.to_sql("product_category_name_translation", con =engine)
-df_olist_orders.to_sql("olist_orders", con =engine)
-df_olist_order_payments.to_sql("olist_order_payments", con =engine)
-df_olist_order_payments.head()
+# --- Configuration for Kaggle File Paths ---
+# Base directory for the Brazilian Ecommerce dataset
+KAGGLE_PATH = '/kaggle/input/brazilian-ecommerce/'
 
-# Load the datasets
+# --- 1. Load the Datasets ---
+print("Attempting to load Olist datasets...")
 try:
-    customers_df = pd.read_csv('olist_customers_dataset.csv')
-    geolocation_df = pd.read_csv('olist_geolocation_dataset.csv')
-    order_items_df = pd.read_csv('olist_order_items_dataset.csv')
-    order_payments_df = pd.read_csv('olist_order_payments_dataset.csv')
-    order_reviews_df = pd.read_csv('olist_order_reviews_dataset.csv')
-    orders_df = pd.read_csv('olist_orders_dataset.csv')
-    products_df = pd.read_csv('olist_products_dataset.csv')
-    sellers_df = pd.read_csv('olist_sellers_dataset.csv')
-    product_category_translation_df = pd.read_csv('product_category_name_translation.csv')
-except FileNotFoundError as e:
-    print(f"Error loading file: {e}")
-    # Exit or handle the error appropriately
-    
-# Create SQLite engine
-engine = create_engine('sqlite:///olist_data.db')
+    df_olist_customers = pd.read_csv(KAGGLE_PATH + 'olist_customers_dataset.csv')
+    df_olist_sellers = pd.read_csv(KAGGLE_PATH + 'olist_sellers_dataset.csv')
+    df_olist_order_reviews = pd.read_csv(KAGGLE_PATH + 'olist_order_reviews_dataset.csv')
+    df_olist_order_items = pd.read_csv(KAGGLE_PATH + 'olist_order_items_dataset.csv')
+    df_olist_products = pd.read_csv(KAGGLE_PATH + 'olist_products_dataset.csv')
+    df_olist_geolocation = pd.read_csv(KAGGLE_PATH + 'olist_geolocation_dataset.csv')
+    df_product_category_name_translation = pd.read_csv(KAGGLE_PATH + 'product_category_name_translation.csv')
+    df_olist_orders = pd.read_csv(KAGGLE_PATH + 'olist_orders_dataset.csv')
+    df_olist_order_payments = pd.read_csv(KAGGLE_PATH + 'olist_order_payments_dataset.csv')
+    print("✅ All datasets loaded successfully.")
 
-# Export DataFrames to SQL tables
-dataframes = {
-    'customers': customers_df,
-    'geolocation': geolocation_df,
-    'order_items': order_items_df,
-    'order_payments': order_payments_df,
-    'order_reviews': order_reviews_df,
-    'orders': orders_df,
-    'products': products_df,
-    'sellers': sellers_df,
-    'product_category_translation': product_category_translation_df
+except FileNotFoundError as e:
+    print(f"Error loading file. Check your file path: {e}")
+    # You might want to exit here if files are essential
+    raise # Re-raise the exception to stop execution
+
+# Display the head of one DataFrame (as in the original code)
+print("\nHead of olist_customers_dataset:")
+print(df_olist_customers.head())
+
+# --- 2. Create SQLite Engine and Export DataFrames ---
+
+# Use a file-based database (olist_data.db) instead of in-memory (sqlite://)
+engine = create_engine('sqlite:///olist_data.db', echo=False)
+
+# Define the DataFrames and their desired table names
+dataframes_to_export = {
+    "customers": df_olist_customers,
+    "sellers": df_olist_sellers,
+    "order_reviews": df_olist_order_reviews,
+    "order_items": df_olist_order_items,
+    "products": df_olist_products,
+    "geolocation": df_olist_geolocation,
+    "category_translation": df_product_category_name_translation,
+    "orders": df_olist_orders,
+    "order_payments": df_olist_order_payments
 }
 
-for table_name, df in dataframes.items():
-    df.to_sql(table_name, engine, if_exists='replace', index=False)
+print("\nExporting DataFrames to SQLite tables...")
+for table_name, df in dataframes_to_export.items():
+    # 'if_exists=replace' will overwrite the table if it already exists
+    # 'index=False' prevents pandas from writing the DataFrame index as a column
+    df.to_sql(table_name, con=engine, if_exists='replace', index=False)
+    print(f"   - Exported {table_name}")
 
-print("✅ SQLite database 'olist_data.db' created and all DataFrames exported as tables.")
-
-
-
+print("\n✅ SQLite database 'olist_data.db' created and all DataFrames exported as tables.")
