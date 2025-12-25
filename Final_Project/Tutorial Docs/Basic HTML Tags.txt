@@ -1,0 +1,15 @@
+==Understanding Basic HTML Tags==
+
+Before we start scraping, it helps to understand what each common HTML tag represents:
+
+<html>: The root element that contains all HTML content.
+<head>: Metadata about the page (like its title or linked stylesheets).
+<title>: The title of the page, usually shown in the browser tab.
+<body>: The main content of the webpage that users see.
+<h1>, <h2>, ... <h6>: Headings, where <h1> is the highest level.
+<p>: Paragraph of text.
+<ul>: Unordered list (bulleted).
+<ol>: Ordered list (numbered).
+<li>: List item inside <ul> or <ol>.
+<div>: A division or section of the page, often used as a container.
+<strong>: Displays bold text, often used to emphasize content.

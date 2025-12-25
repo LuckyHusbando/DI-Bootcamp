@@ -1,0 +1,41 @@
+====Python Fundamentals Cheat Sheet (1-20)====
+
+Variable: A symbolic name that is bound to a value.
+
+Data Type: Defines the type of value a variable can hold (e.g., int, float, string).
+
+List: A mutable ordered collection of items. Example: [1, 2, 3].
+
+Tuple: An immutable ordered collection of items. Example: (1, 2, 3).
+
+Dictionary: A collection of key-value pairs. Example: {'name': 'Alice', 'age': 25}.
+
+Set: An unordered collection of unique items. Example: {1, 2, 3}.
+
+Loop: A control flow structure used to repeat a block of code. Examples: for, while.
+
+Conditional: Used to perform different actions based on different conditions (if, else, elif).
+
+Function: A block of code that only runs when it is called. Example: def my_function():.
+
+Class: A blueprint for creating objects (instances). Example: class Dog:.
+
+Object: An instance of a class.
+
+Method: A function defined inside a class that operates on an object.
+
+Lambda Function: An anonymous function defined with the lambda keyword.
+
+List Comprehension: A concise way to create lists. Example: [x**2 for x in range(5)].
+
+Exception: An error that occurs during the execution of a program (e.g., try, except).
+
+Import: Bringing in external modules to extend Python functionality. Example: import math.
+
+File Handling: Opening, reading, writing, and closing files using Python’s built-in functions (open, read, write, close).
+
+Iterator: An object that can be iterated upon, returning one item at a time (e.g., lists, tuples).
+
+Generator: A type of iterator created using a function with yield instead of return.
+
+Decorator: A function that modifies the behavior of another function or method.

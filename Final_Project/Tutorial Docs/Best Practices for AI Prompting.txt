@@ -1,0 +1,18 @@
+Best Practices (If You Want Predictable Behavior)
+
+If precision matters, use this pattern:
+
+### Task
+[What to do]
+
+### Mandatory Constraints
+- Must ...
+- Do not ...
+
+### Output Format
+- Language:
+- Structure:
+- Length:
+
+### Optional Preferences
+- If possible ...
