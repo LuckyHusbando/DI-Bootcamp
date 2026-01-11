@@ -1,8 +1,6 @@
 ### 🎮 Video Game Genre Success By Platform: An Analysis of Market Dynamics from 2008-2018
 
-Created by: Derek Pursell
-
-Email: DEP1919@gmail.com
+Created by: Derek Pursell -- Email: DEP1919@gmail.com
 
 ---
 
