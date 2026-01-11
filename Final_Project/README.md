@@ -69,11 +69,10 @@ Identify the **top 3 high-growth genres** for each major platform and provide a 
 ---
 
 ## 🚀 About Me
-- 🔭 I’m currently working on **[Project Name or Learning Path]**
-- 🌱 I’m currently learning **[Specific Language or Game Engine]**
-- 📊 I have a deep interest in **Game Economics and User Metrics** (Retention, LTV, and Churn analysis).
-- 💬 Ask me about **[A topic you love, e.g., RPG Mechanics, Unity, or Data Science]**
-- ⚡ Fun fact: **[Insert a quirky fact about yourself here]**
+
+- 📊 I have a deep interest in **Game Economics and Reward Systems**
+- 💬 Ask me about **Game Mechanics, Dungeons & Dragons, & Data Science**
+- ⚡ Fun fact: **I love animals and our family has been working with animal rescue organizations for years.**
 
 ---
 
@@ -81,8 +80,8 @@ Identify the **top 3 high-growth genres** for each major platform and provide a 
 ### 💻 Languages & Tools
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![SQL](https://img.shields.io/badge/sql-%2307405e.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
