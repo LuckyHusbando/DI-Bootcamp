@@ -4,7 +4,6 @@ Created by: Derek Pursell
 Email: DEP1919@gmail.com
 ---
 
-# 📊 Decadal Video Game Market Analysis (2008–2018)
 > **A Comprehensive Data Engineering & Analytics Project**
 
 ![Project Status: Active](https://img.shields.io/badge/Project_Status-Active-brightgreen)
