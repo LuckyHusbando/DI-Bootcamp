@@ -33,13 +33,6 @@ We implement a **Star Schema** to optimize for complex analytical queries across
 ## 🐍 Phase 2: Python Processing & Market Modeling
 *The "Analytical Layer" utilizing statistical normalization and trend detection.*
 
-### Market Growth Modeling
-We calculate the **Compound Annual Growth Rate (CAGR)** to understand the pace of industry expansion:
-
-$$CAGR = \left( \frac{V_{final}}{V_{begin}} \right)^{\frac{1}{t}} - 1$$
-
-*Where $V_{begin}$ (2008) and $V_{final}$ (2018) represent the total market valuation across $t=10$ years.*
-
 ### Trend Identification Logic
 * **Generation Clustering:** Automating the grouping of platforms into generational cohorts.
 * **Normalization:** Comparing "Evergreen" genres (e.g., Sports, which maintained a consistent ~27% market share) against "Trend" surges (e.g., Shooters peaking in 2015-2018).
@@ -50,8 +43,7 @@ $$CAGR = \left( \frac{V_{final}}{V_{begin}} \right)^{\frac{1}{t}} - 1$$
 *Translating 10 years of data into interactive narratives for stakeholders.*
 
 ### Dashboard Deliverables
-1.  **The Platform Heatmap:** A visual matrix identifying "Niche" vs. "Mass Market" pairings (e.g., the dominance of RPGs on Nintendo handhelds vs. Shooters on Xbox).
-2.  **Market Share Race Chart:** An animated transition showing how the **Action** genre maintained dominance while **Battle Royale/Shooters** disrupted the landscape post-2015.
+**The Platform Heatmap:** A visual matrix identifying "Niche" vs. "Mass Market" pairings (e.g., the dominance of RPGs on Nintendo handhelds vs. Shooters on Xbox).
 
 ---
 
@@ -64,7 +56,7 @@ $$CAGR = \left( \frac{V_{final}}{V_{begin}} \right)^{\frac{1}{t}} - 1$$
 | **360° Dashboard** | Interactive global/regional market landscape. | Tableau |
 
 ### Final Goal
-Identify the **top 3 high-growth genres** for each major platform and provide a data-backed explanation for how the global market shifted from a **$21.4 Billion (2008)** U.S. industry to a **$134.9 Billion (2018)** global powerhouse.
+Identify major market trends over the period and provide a data-backed explanation for how the global market shifted over the period 2008-2018.
 
 ---
 
