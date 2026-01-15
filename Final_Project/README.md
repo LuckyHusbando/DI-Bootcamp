@@ -87,6 +87,6 @@ Identify the **top 3 high-growth genres** for each major platform and provide a 
 
 ## 📫 Let's Connect!
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/derek-pursell/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](your-portfolio-link-here)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://public.tableau.com/app/profile/derek.pursell/viz/TheVideoGameIndustry-2008-2018-KeyInsights/Dashboard?publish=yes)
 
 ---
