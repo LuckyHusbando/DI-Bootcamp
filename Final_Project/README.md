@@ -56,7 +56,7 @@ We implement a **Star Schema** to optimize for complex analytical queries across
 | **360° Dashboard** | Interactive global/regional market landscape. | Tableau |
 
 ### Final Goal
-Identify major market trends over the period and provide a data-backed explanation for how the global market shifted over the period 2008-2018.
+Identify major market trends over the period and provide a data-backed explanation for how the global market shifted over the period 2008-2018. See the Tableau Dashboard here:[![Dashboard](https://img.shields.io/badge/Dashboard-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://public.tableau.com/app/profile/derek.pursell/viz/TheVideoGameIndustry-2008-2018-KeyInsights/Dashboard?publish=yes)
 
 ---
 
