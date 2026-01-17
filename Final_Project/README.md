@@ -58,6 +58,16 @@ We implement a **Star Schema** to optimize for complex analytical queries across
 ### Final Goal
 Identify major market trends over the period and provide a data-backed explanation for how the global market shifted over the period 2008-2018. See the Tableau Dashboard here:[![Dashboard](https://img.shields.io/badge/Dashboard-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://public.tableau.com/app/profile/derek.pursell/viz/TheVideoGameIndustry-2008-2018-KeyInsights/Dashboard?publish=yes)
 
+### Key Insights
+
+1. Action, Shooters, Sports, and RPGs dominated the global market, constituting 65.44% market share.
+2. Other genres constitued less than 5% of market share, including Fighting, Strategy, & Puzzle Games. These values represent the average market share over the 2008-2018 period.
+3. Action games were the most popular titles in North America, Europe, and Other regions, but not Japan.
+4. Roleplaying games were the most popular titles in Japan, with barely any market for shooter games.
+5. The seventh generation consoles (PS3, X360, Wii) were far more successful sellers than the eigth generation consoles (PS4, XOne, WiiU).
+6. Industry experts have stated that this was likely due to too little difference and improvement over the earlier generation along with few stand-out game titles.
+7. The seventh to eigth generation console transition saw a significant contraction in sales and player base.
+
 ---
 
 ## 🚀 About Me
