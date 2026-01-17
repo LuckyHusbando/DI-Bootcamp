@@ -33,13 +33,6 @@ We implement a **Star Schema** to optimize for complex analytical queries across
 ## 🐍 Phase 2: Python Processing & Market Modeling
 *The "Analytical Layer" utilizing statistical normalization and trend detection.*
 
-### Market Growth Modeling
-We calculate the **Compound Annual Growth Rate (CAGR)** to understand the pace of industry expansion:
-
-$$CAGR = \left( \frac{V_{final}}{V_{begin}} \right)^{\frac{1}{t}} - 1$$
-
-*Where $V_{begin}$ (2008) and $V_{final}$ (2018) represent the total market valuation across $t=10$ years.*
-
 ### Trend Identification Logic
 * **Generation Clustering:** Automating the grouping of platforms into generational cohorts.
 * **Normalization:** Comparing "Evergreen" genres (e.g., Sports, which maintained a consistent ~27% market share) against "Trend" surges (e.g., Shooters peaking in 2015-2018).
@@ -50,8 +43,7 @@ $$CAGR = \left( \frac{V_{final}}{V_{begin}} \right)^{\frac{1}{t}} - 1$$
 *Translating 10 years of data into interactive narratives for stakeholders.*
 
 ### Dashboard Deliverables
-1.  **The Platform Heatmap:** A visual matrix identifying "Niche" vs. "Mass Market" pairings (e.g., the dominance of RPGs on Nintendo handhelds vs. Shooters on Xbox).
-2.  **Market Share Race Chart:** An animated transition showing how the **Action** genre maintained dominance while **Battle Royale/Shooters** disrupted the landscape post-2015.
+**The Platform Heatmap:** A visual matrix identifying "Niche" vs. "Mass Market" pairings (e.g., the dominance of RPGs on Nintendo handhelds vs. Shooters on Xbox).
 
 ---
 
@@ -64,7 +56,17 @@ $$CAGR = \left( \frac{V_{final}}{V_{begin}} \right)^{\frac{1}{t}} - 1$$
 | **360° Dashboard** | Interactive global/regional market landscape. | Tableau |
 
 ### Final Goal
-Identify the **top 3 high-growth genres** for each major platform and provide a data-backed explanation for how the global market shifted from a **$21.4 Billion (2008)** U.S. industry to a **$134.9 Billion (2018)** global powerhouse.
+Identify major market trends over the period and provide a data-backed explanation for how the global market shifted over the period 2008-2018. See the Tableau Dashboard here:[![Dashboard](https://img.shields.io/badge/Dashboard-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://public.tableau.com/app/profile/derek.pursell/viz/TheVideoGameIndustry-2008-2018-KeyInsights/Dashboard?publish=yes)
+
+### Key Insights
+
+1. Action, Shooters, Sports, and RPGs dominated the global market, constituting 65.44% market share.
+2. Other genres constitued less than 5% of market share, including Fighting, Strategy, & Puzzle Games. These values represent the average market share over the 2008-2018 period.
+3. Action games were the most popular titles in North America, Europe, and Other regions, but not Japan.
+4. Roleplaying games were the most popular titles in Japan, with barely any market for shooter games.
+5. The seventh generation consoles (PS3, X360, Wii) were far more successful sellers than the eigth generation consoles (PS4, XOne, WiiU).
+6. Industry experts have stated that this was likely due to too little difference and improvement over the earlier generation along with few stand-out game titles.
+7. The seventh to eigth generation console transition saw a significant contraction in sales and player base.
 
 ---
 
