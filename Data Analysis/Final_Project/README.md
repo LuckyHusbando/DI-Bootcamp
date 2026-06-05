@@ -90,5 +90,6 @@ Identify major market trends over the period and provide a data-backed explanati
 ## 📫 Let's Connect!
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/derek-pursell/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://public.tableau.com/app/profile/derek.pursell/viz/TheVideoGameIndustry-2008-2018-KeyInsights/Dashboard?publish=yes)
+[![Loom](https://img.shields.io/badge/Loom-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.loom.com/share/bb3ccd21a2b6417dabfd89d4bf692246)
 
 ---
