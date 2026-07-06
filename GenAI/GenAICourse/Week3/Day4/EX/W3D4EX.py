@@ -68,16 +68,16 @@ print(c1)          # 20 dollars
 # 🌟 Exercise 2: Import
 # Goal: Create a module with a function and import it into another file.
 
-# func.py
-def sum_and_print(num1, num2):
-    result = num1 + num2
-    print(f"The sum of {num1} and {num2} is {result}")
+# # func.py
+# def sum_and_print(num1, num2):
+#     result = num1 + num2
+#     print(f"The sum of {num1} and {num2} is {result}")
 
-# exercise_one.py
-# from func import sum_and_print
+# # exercise_one.py
+# # from func import sum_and_print
 
-# Calling the imported function
-sum_and_print(15, 27)
+# # Calling the imported function
+# sum_and_print(15, 27)
 
 # 🌟 Exercise 3: String module
 
