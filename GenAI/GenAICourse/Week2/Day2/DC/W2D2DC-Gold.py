@@ -14,58 +14,42 @@ $a
 # ==========================================
 # Step 1: Transforming the String into a 2D List
 # ==========================================
-# Split by newline and remove any empty padding lines
 lines = [line for line in MATRIX_STR.split("\n") if line]
-
-# Convert each line into a list of individual characters
 matrix = [list(line) for line in lines]
 
 
 # ==========================================
 # Step 2: Processing Columns
+# [Feedback #1 & #4] Handles varying row lengths & improves string performance
 # ==========================================
 num_rows = len(matrix)
-num_cols = len(matrix[0]) if num_rows > 0 else 0
+# Find max length to safely handle rows of varying lengths
+max_cols = max((len(row) for row in matrix), default=0)
 
-raw_column_string = ""
+raw_chars = []
 
-# Loop through columns first, then rows (top-to-bottom, left-to-right)
-for col in range(num_cols):
-    for row in range(num_rows):
-        raw_column_string += matrix[row][col]
+# Loop column-by-column
+for col in range(max_cols):
+    for row in matrix:
+        # Check boundary to avoid IndexError on shorter rows
+        if col < len(row):
+            raw_chars.append(row[col])
 
-
-# ==========================================
-# Steps 3 & 4: Filtering Alpha Characters & Replacing Symbols
-# ==========================================
-decoded_message = ""
-i = 0
-
-while i < len(raw_column_string):
-    # Step 3: Check if it's an alphabet letter using .isalpha()
-    if raw_column_string[i].isalpha():
-        decoded_message += raw_column_string[i]
-        i += 1
-    else:
-        # Step 4: We hit a non-alpha character (or group of them)
-        start = i
-        while i < len(raw_column_string) and not raw_column_string[i].isalpha():
-            i += 1
-        end = i
-
-        # Check if this group of symbols is strictly BETWEEN two alpha characters
-        has_alpha_before = any(c.isalpha() for c in raw_column_string[:start])
-        has_alpha_after = any(c.isalpha() for c in raw_column_string[end:])
-
-        if has_alpha_before and has_alpha_after:
-            # Replace the entire group of symbols with a single space
-            decoded_message += " "
-        else:
-            # If they are at the very beginning or end, keep them as they are
-            decoded_message += raw_column_string[start:end]
+# Use join() instead of repeated += inside loops for O(N) performance
+raw_column_string = "".join(raw_chars)
 
 
 # ==========================================
-# Step 5: Constructing and Printing the Secret Message
+# Steps 3 & 4: Filtering & Decoding
+# [Feedback #2 & #3] Uses Regex lookarounds to simplify logic and preserve edges
+# ==========================================
+# Lookbehind (?<=\w) ensures an alphanumeric character precedes the group.
+# Lookahead (?=\w) ensures an alphanumeric character follows the group.
+# Non-alphanumeric groups NOT between two alphanumeric characters (leading/trailing) are ignored.
+decoded_message = re.sub(r'(?<=\w)[^\w]+(?=\w)', ' ', raw_column_string)
+
+
+# ==========================================
+# Step 5: Output
 # ==========================================
 print(decoded_message)
