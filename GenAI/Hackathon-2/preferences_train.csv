@@ -1,0 +1,243 @@
+﻿text,cafe,food,vegan,vegetarian,bakery,mexican,israeli,art,culture,history,architecture,outdoors,beach,surfing,nightlife,cocktails,music,market,shopping,quiet,budget,romantic
+I want a quiet coffee shop to read,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+I want to visit an art gallery,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Find an outdoor park near the sea,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+I want an affordable place to eat,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Find a romantic place for a date,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+I want a lively bar with music,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+Find a local flea market,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+I want a peaceful place outdoors,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+I want to explore museums and history,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+I want coffee near the beach,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"I want a coffee shop near Lee PLC Cafe at Cabrera St 14, Lev Ha'ir",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore history and culture near Becker, Romero and White Heritage Complex at Hodges St 84, Nahalat Binyamin",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+"Find a local market near Gibson-Combs Market at Chavez St 53, Nahalat Binyamin",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"Find an affordable bakery near Jones and Sons Bakery at Mills St 59, Lev Ha'ir",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a quiet coffee shop near Miller and Sons Cafe at Conley St 51, Jaffa",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Find a peaceful outdoor public space near Ray LLC Waterfront Promenade at Clark St 60, Tel Aviv Port",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"I want to visit an art or cultural venue near Donovan, Huynh and Burnett Museum at Martin St 11, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find an outdoor beach area near Padilla Inc Beach Access at Norris St 27, Bograshov Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Find a peaceful outdoor public space near Thompson LLC Waterfront Promenade at Mcclure St 15, Gordon Beach",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"Find an affordable bakery near Williams-Kelly Bakery at Casey St 152, Neve Tzedek",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want a peaceful beach outdoors near Dalton, West and Snyder Beach Access at Bell St 63, Frishman Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"I want to visit an art or cultural venue near Reese PLC Art Space at Watkins St 101, Shaul Hamelech",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a local market near Richardson-Carroll Market at Howell St 143, Nahalat Binyamin",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"I want to visit an art or cultural venue near Hill LLC Museum at Anderson St 1, Shaul Hamelech",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a romantic restaurant for a date near Allison-Melendez Kitchen at Hill St 45, Jaffa",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Find a local market on a budget near Barron-Frazier Market at Smith St 51, Nahalat Binyamin",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,1,0,1,0
+"I want to explore history and culture near Mendez-Moody Heritage Complex at Perez St 20, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+"Find a local market on a budget near Forbes-Boyer Market at Koch St 24, Carmel Market",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0
+"Find a peaceful outdoor public space near Martin-Hansen Waterfront Promenade at Brown St 128, Gordon Beach",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"Find a quiet coffee shop near Sullivan Group Cafe at Hicks St 76, Levontin",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Find a local market near Campbell-Coleman Market at Beard St 16, Carmel Market",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"I want to visit an art or cultural venue near Brown, Murray and Barton Cultural Centre at Wu St 30, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Find a peaceful outdoor public space near Bailey-Cook Waterfront Promenade at Davis St 22, Jaffa",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"Find an affordable bakery near Stone Inc Bakery at Griffin St 160, Batzron",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a peaceful outdoor public space near Hamilton, Berger and Watson Waterfront Promenade at Brady St 58, Gordon Beach",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"I want to visit an art or cultural venue near Herman-Martin Art Space at Bradshaw St 113, Shaul Hamelech",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find an outdoor beach area near Patterson PLC Beach Access at Ramsey St 138, Bograshov Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"I want a coffee shop near Ford-Walter Cafe at Griffith St 177, Jaffa",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find an affordable bakery near Fields PLC Bakery at Reeves St 135, Neve Tzedek",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want a peaceful beach outdoors near Norris Group Beach Access at Grant St 147, Frishman Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"I want a peaceful beach outdoors near Ferguson-Nielsen Beach Access at Diaz St 13, Frishman Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"I want a peaceful beach outdoors near Moody, Bean and Thomas Beach Access at Myers St 99, Bograshov Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"I want a lively bar with music near Vaughan-Thompson Bar at Dawson St 173, Levontin",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Find a romantic restaurant for a date near James, Roth and Church Kitchen at Mckenzie St 1, Neve Tzedek",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Find a romantic restaurant for a date near Burke-Jones Kitchen at Harding St 7, Lev Ha'ir",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"I want an affordable place to eat near Green, Gutierrez and Norris Kitchen at Arroyo St 118, Jaffa",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a bakery cafe near Taylor, Gutierrez and Fisher Bakery at Salazar St 83, Neve Tzedek",1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore history and culture near Barker-Armstrong Heritage Complex at Chen St 19, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0
+"Find a local market on a budget near Cunningham-Hunt Market at Day St 32, Jaffa",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0
+"I want an affordable place to eat near Brooks LLC Kitchen at Mcdonald St 150, Old North",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want to explore history and culture near Anderson Ltd Heritage Complex at Little St 120, Nahalat Binyamin",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0
+"I want to visit an art or cultural venue near Brown, Johnson and Shaw Cultural Centre at Parrish St 42, Jaffa",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Browning, Johnson and Austin Museum at Parker St 88, Shaul Hamelech",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a quiet coffee shop near Short-Esparza Cafe at Love St 173, Old North",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Find an affordable bakery near Wright-Walls Bakery at Duffy St 173, Neve Tzedek",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a romantic restaurant for a date near Rubio, Taylor and Farmer Kitchen at Kelly St 24, Old North",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"I want a lively bar with music near Roth-Miller Bar at Garner St 26, Lev Ha'ir",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Find a local market on a budget near Smith Inc Market at Cortez St 52, Carmel Market",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0
+"I want an affordable place to eat near Cabrera-Henderson Kitchen at Lewis St 100, Levontin",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want a coffee shop near Barnes, Jackson and Chapman Cafe at Rivas St 38, Lev Ha'ir",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Find a romantic restaurant for a date near Walter Ltd Kitchen at Phillips St 123, Neve Tzedek",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Find an affordable bakery near Larson and Sons Bakery at Cook St 78, Batzron",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a local market near Rogers LLC Market at Brandt St 1, Jaffa",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"Find an affordable bakery near Stone Ltd Bakery at Howard St 90, Neve Tzedek",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a quiet coffee shop near Garza-Curry Cafe at Wolf St 94, Levontin",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Find a quiet coffee shop near Jones, Russell and Cruz Cafe at Lee St 156, Lev Ha'ir",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"I want to explore a historic neighborhood near Torres, Cruz and Miller Quarter at Stewart St 162, Neve Tzedek",1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Terrell-White Museum at Ramos St 19, Shaul Hamelech",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a peaceful outdoor public space near Roberts PLC Waterfront Promenade at Craig St 76, Gordon Beach",1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0
+"Find a quiet coffee shop near Miller, Campbell and Jacobs Cafe at Richardson St 28, Levontin",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"I want to explore a historic neighborhood near Green-Bailey Quarter at Faulkner St 47, Old North",1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a romantic restaurant for a date near Cooke-Lopez Kitchen at Bridges St 164, Lev Ha'ir",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"I want to visit an art or cultural venue near Garcia LLC Museum at Taylor St 10, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore history and culture near Estrada, Johnson and Bright Heritage Complex at Gonzales St 87, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0
+"Find a peaceful outdoor public space near Vasquez-Matthews Waterfront Promenade at Scott St 152, Gordon Beach",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"Find a romantic restaurant for a date near Copeland, Sawyer and Trujillo Kitchen at Ortiz St 132, Old North",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"I want a lively bar with music near Walker-Bryant Bar at Thomas St 99, Old North",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"I want a lively bar with music near Campbell, Garcia and Wise Bar at Rios St 138, Old North",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"I want a lively bar with music near Torres, Buchanan and Robinson Bar at Gibson St 100, Old North",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"I want to explore a historic neighborhood near Taylor-Casey Quarter at Sawyer St 156, Jaffa",1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+"Find an outdoor cafe near Allen, Lee and Chandler Cafe at Martinez St 167, Jaffa",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"I want an affordable place to eat near Williams Ltd Kitchen at Bradley St 130, Old North",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a peaceful outdoor public space near Woods, Carrillo and Tran Waterfront Promenade at Castro St 134, Tel Aviv Port",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"I want a lively bar with music near Hill, Schultz and Parks Bar at Rivera St 179, Lev Ha'ir",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Find an affordable bakery near Butler, Miller and Nelson Bakery at Dougherty St 8, Lev Ha'ir",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want to visit an art or cultural venue near Washington PLC Art Space at Huff St 135, Shaul Hamelech",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore a historic neighborhood near Douglas PLC Quarter at Fernandez St 56, Jaffa",1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Miller PLC Cultural Centre at Allen St 73, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want a lively bar with music near Craig-Stark Bar at Vaughan St 177, Lev Ha'ir",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Find a quiet coffee shop near Johnson, Richardson and Gallegos Cafe at Miller St 50, Lev Ha'ir",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"I want to explore a historic neighborhood near Tyler, Thomas and Norris Quarter at Mann St 164, Jaffa",1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+"I want a coffee shop near Burton Ltd Cafe at Gutierrez St 69, Old North",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore history and culture near Shelton-Allen Heritage Complex at Harris St 72, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0
+"Find a bakery cafe near Adams, Steele and Rogers Bakery at Stone St 154, Batzron",1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Stevens Group Cultural Centre at Lowery St 164, Jaffa",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find an outdoor beach area near Evans Ltd Beach Access at Vargas St 109, Bograshov Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"I want a coffee shop near Hanson Group Cafe at Lowe St 52, Jaffa",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a romantic restaurant for a date near Davis LLC Kitchen at Jarvis St 68, Levontin",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Find a peaceful outdoor public space near Johnson-Murphy Waterfront Promenade at Reese St 24, Tel Aviv Port",1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0
+"Find an outdoor beach area near Chen Inc Beach Access at Ellis St 127, Gordon Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Kelly Inc Museum at Lawson St 45, Shaul Hamelech",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore a historic neighborhood near Glass-Mcdonald Quarter at Hunt St 93, Old North",1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+"I want a coffee shop near Miller, Mcguire and Obrien Cafe at Vega St 169, Lev Ha'ir",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Nielsen LLC Cultural Centre at Lozano St 33, Jaffa",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Rocha, Wise and Hicks Cultural Centre at Holloway St 31, Jaffa",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore history and culture near Harris Group Heritage Complex at Valenzuela St 39, Neve Tzedek",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0
+"I want to visit an art or cultural venue near Lewis, Johnson and Williams Cultural Centre at Wright St 137, Jaffa",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find an outdoor beach area near Santos Group Beach Access at Bailey St 158, Bograshov Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Find a romantic restaurant for a date near Anderson PLC Kitchen at Nguyen St 148, Jaffa",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Find a bakery cafe near Mullins, Jones and Weiss Bakery at Pearson St 15, Neve Tzedek",1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want a lively bar with music near Hill, Buck and Young Bar at Arnold St 158, Levontin",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Find a local market on a budget near Robbins, Anderson and Brooks Market at Mcguire St 7, Carmel Market",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0
+"I want to visit an art or cultural venue near Mullins Ltd Cultural Centre at Moore St 179, Jaffa",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want a peaceful beach outdoors near Brown Group Beach Access at Torres St 120, Old North",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"I want to visit an art or cultural venue near Maynard-Chung Art Space at Farrell St 39, Shaul Hamelech",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a local market near Greene-Owens Market at Obrien St 17, Nahalat Binyamin",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"I want to explore history and culture near Powell Ltd Heritage Complex at Yates St 161, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0
+"Find a quiet coffee shop near Reynolds PLC Cafe at Wilkinson St 141, Neve Tzedek",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Find an outdoor beach area near Harper, Paul and Barrett Beach Access at Wiggins St 47, Jerusalem Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+"I want a coffee shop near Thompson, Ayers and Manning Cafe at Young St 63, Jaffa",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a romantic restaurant for a date near Huber, Allen and Williams Kitchen at Lopez St 57, Lev Ha'ir",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Find an affordable bakery near Miller Inc Bakery at Nelson St 84, Lev Ha'ir",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want a peaceful beach outdoors near Mckinney-Ramirez Beach Access at Gomez St 150, Bograshov Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"I want to visit an art or cultural venue near Mitchell LLC Art Space at Villarreal St 14, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want an affordable place to eat near Harvey-Meadows Kitchen at Blake St 42, Old North",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want to explore history and culture near Gilbert Inc Heritage Complex at Delgado St 99, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Smith LLC Cultural Centre at Curry St 127, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore history and culture near Martin, Moran and Diaz Heritage Complex at Wilson St 124, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0
+"Find an outdoor beach area near Durham Group Beach Access at Webster St 180, Frishman Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Find a peaceful outdoor public space near Mills, White and Kaiser Waterfront Promenade at Hall St 108, Gordon Beach",1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0
+"I want a coffee shop near Sanders Ltd Cafe at Ray St 97, Jaffa",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a local market on a budget near Perez-Burton Market at Stephenson St 110, Carmel Market",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0
+"Find a romantic restaurant for a date near Hart-Richmond Kitchen at Shaw St 152, Levontin",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Find a peaceful outdoor public space near Deleon-Ruiz Waterfront Promenade at Wood St 30, Tel Aviv Port",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+"I want a peaceful beach outdoors near Mcintyre, Mccormick and Rose Beach Access at Thompson St 144, Bograshov Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"I want a lively bar with music near Brown-Rodriguez Bar at Schmidt St 37, Lev Ha'ir",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Find a local market near Anderson, Williams and Howell Market at Frazier St 17, Carmel Market",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"Find an affordable bakery near Sanders LLC Bakery at Williams St 1, Neve Tzedek",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want a lively bar with music near Phillips-Donaldson Bar at Cobb St 121, Old North",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Find a quiet coffee shop near Moore, Bautista and Villegas Cafe at Mayo St 139, Jaffa",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Find an affordable bakery near Williams-Kent Bakery at Baird St 142, Batzron",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want a peaceful beach outdoors near Hardin Inc Beach Access at Douglas St 11, Old North",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"I want an affordable place to eat near Diaz, Lewis and Park Kitchen at Hunter St 7, Neve Tzedek",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want a lively bar with music near Rivera Inc Bar at Johnston St 48, Levontin",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"I want to visit an art or cultural venue near Wilson-Thompson Museum at Hayes St 74, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want an affordable place to eat near Baker-Gillespie Kitchen at Patel St 133, Levontin",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find an outdoor beach area near Dillon, Tate and Anderson Beach Access at Hardy St 134, Gordon Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"I want a coffee shop near Jennings, Branch and Love Cafe at Hernandez St 174, Lev Ha'ir",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Perry-Brown Cultural Centre at Russo St 172, Jaffa",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore history and culture near Warren-Gonzalez Heritage Complex at Fuller St 107, Neve Tzedek",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0
+"Find an affordable bakery near Novak and Sons Bakery at Johnson St 88, Neve Tzedek",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want to explore history and culture near Hubbard Inc Heritage Complex at Blair St 104, Nahalat Binyamin",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0
+"I want a lively bar with music near Shields, Hansen and Webb Bar at Patterson St 149, Old North",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Find an affordable bakery near Jackson PLC Bakery at Larson St 116, Neve Tzedek",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a romantic restaurant for a date near Grimes, Mccoy and Jacobs Kitchen at Alexander St 145, Levontin",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Find a romantic restaurant for a date near Stewart-Weber Kitchen at Ford St 42, Old North",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"I want to explore history and culture near Phillips, Li and Hall Heritage Complex at Malone St 52, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+"I want a coffee shop near Vasquez-Morales Cafe at Leonard St 62, Neve Tzedek",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want an affordable place to eat near Anderson, Gay and Werner Kitchen at Callahan St 80, Neve Tzedek",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Find a bakery cafe near Carpenter-Morris Bakery at Meyer St 126, Neve Tzedek",1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a bakery cafe near Marsh-Decker Bakery at Ballard St 177, Lev Ha'ir",1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a quiet coffee shop near Taylor, Krause and Miller Cafe at Orr St 148, Levontin",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"I want a coffee shop near Andrews, Mcneil and Jones Cafe at Roth St 39, Jaffa",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a quiet coffee shop near Ramsey, Garcia and White Cafe at Walker St 99, Neve Tzedek",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"I want a peaceful beach outdoors near Morrison-Fisher Beach Access at Velasquez St 137, Jerusalem Beach",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0
+"Find an affordable bakery near Perkins PLC Bakery at Reyes St 113, Lev Ha'ir",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"I want to explore history and culture near Caldwell-Reynolds Heritage Complex at Murphy St 112, Jaffa",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+"I want to visit an art or cultural venue near Cox Ltd Cultural Centre at Ramirez St 81, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want to explore a historic neighborhood near Gomez-Baker Quarter at Cline St 67, Neve Tzedek",1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a local market near Wright, Malone and Stanley Market at Rodriguez St 2, Nahalat Binyamin",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"I want to visit an art or cultural venue near Estes PLC Museum at Romero St 98, Neve Tzedek",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find a local market near Edwards, Banks and Hanna Market at Soto St 34, Carmel Market",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"I want a lively bar with music near Smith-Ortiz Bar at Briggs St 13, Old North",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"I want a lively bar with music near Alexander Inc Bar at Ross St 180, Levontin",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"I want to explore history and culture near Nichols-Jones Heritage Complex at Carter St 140, Neve Tzedek",0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+"Find a bakery cafe near Maynard, Brown and Clark Bakery at Perry St 87, Batzron",1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want a lively bar with music near Carr-Wang Bar at Kane St 57, Old North",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"I want a coffee shop near Cordova, Jones and Tucker Cafe at Cuevas St 103, Old North",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"I want a coffee shop near Taylor, Morales and Romero Cafe at Garcia St 23, Lev Ha'ir",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Find an affordable bakery near Rodriguez, Wade and King Bakery at Hogan St 157, Batzron",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+I am looking for a 100% vegan restaurant with plant-based dishes,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Find a great vegan cafe for plant-based pastry,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I want to eat vegan food for lunch,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Where can I find plant-based burgers and vegan snacks?,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I need a vegan-friendly spot in town,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Looking for a vegetarian restaurant with meat-free options,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I want vegetarian food and fresh salads,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Best vegetarian cafe for breakfast,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Are there any meat-free restaurants nearby?,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I prefer vegetarian dishes and organic food,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vegan bakery with plant-based cookies,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I want authentic Mexican food and tacos,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Where is the best taco stand in town?,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I am craving Mexican burritos and quesadillas,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Looking for a Mexican restaurant with spicy salsa,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Let's go get tacos and chips,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Mexican cuisine and street food,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Tacos, burritos, and Mexican drinks",0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Find a Mexican spot open late,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Crispy tacos and Mexican food,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I love Mexican enchiladas and guacamole,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Mexican restaurant downtown,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I want traditional Israeli food and fresh hummus,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Where can I get good falafel and shakshuka?,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Middle Eastern cuisine and Israeli breakfast,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Authentic hummus and falafel plates,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I am looking for Israeli food in Tel Aviv,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Shakshuka and fresh pita bread,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Best falafel in the local market,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Middle Eastern food and Israeli dishes,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hummus place open for lunch,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Traditional Israeli breakfast with shakshuka,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Falafel sandwich stand,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I want to see historic architecture and Bauhaus buildings,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Explore unique building designs and architecture,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Bauhaus architecture tour in the city,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Architectural landmarks and old structures,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Modern and classical building architecture,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+I love admiring city architecture,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Walking tour of architectural heritage,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Unique facade and building design architecture,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Historical architecture and monuments,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Discovering architectural masterpieces,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Bauhaus style buildings and architecture,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+I want to go surfing and catch waves,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Surfboard rental near the coast,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Where are the best waves for surfing today?,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Surfing lessons at the beach,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Catching waves on my surfboard,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+"Sea, waves, and surfing spots",0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Beach with great surfing conditions,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Surfing community by the ocean,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Wetsuit and surfboard for surfing,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Morning surf session at the seashore,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Ocean waves and surfing gear,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Vegan dining experience with cruelty-free food,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Plant-based cafe serving vegan treats,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Strictly vegan food menu items,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vegan cheese and plant-based milk options,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Where to buy vegan burgers in town,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100% plant-based and vegan eatery,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vegan brunch with avocado toast,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,89 @@
+# GENZ-AI | AI City Discovery
+
+5-minute presentation script
+
+Slide 1 — Title | 0:00–0:20
+
+“We’re GENZ-AI, and this is AI City Discovery: a personalized place-recommendation system for Tel Aviv.
+
+The idea is simple: less time scrolling through places, more time actually going to them.”
+
+Slide 2 — Problem | 0:20–0:50
+
+“Finding places is not the hard part. Finding the right place is.
+
+A search for ‘quiet, creative, and affordable’ is more nuanced than a list of popular venues.
+
+Existing discovery tools often give us options, but not enough context to decide.”
+
+Slide 3 — Solution | 0:50–1:15
+
+“Our app takes a natural-language request, identifies what matters, and returns a ranked shortlist with explanations.
+
+Instead of forcing users to translate their plans into filters, they can simply describe what they want.”
+
+Slide 4 — System flow | 1:15–2:00
+
+“The pipeline has three AI stages.
+
+First, DistilBERT with a LoRA adapter classifies preferences.
+
+Second, Sentence Transformers creates semantic embeddings, and FAISS retrieves relevant places.
+
+Third, a hybrid ranking stage orders the results, and Llama 3.2 through Ollama generates explanations.
+
+If the local language model is unavailable, we have a fallback.”
+
+Slide 5 — Recommendation engine | 2:00–2:35
+
+“Ranking combines two main signals: 55 percent semantic similarity and 45 percent preference-tag coverage.
+
+We also apply adjustments for evidence, data quality, price, and neighborhood.
+
+So a place isn't recommended just because it contains the right keyword—or because it's popular.”
+
+Slide 6 — LoRA training | 2:35–3:15
+
+“The preference classifier uses DistilBERT, fine-tuned with LoRA across 22 preference categories.
+
+Only 1.1147 percent of the model parameters were trainable.
+
+Across three epochs, training loss fell from 0.4707 to 0.2771—about a 41 percent reduction.
+
+Important caveat: that's training loss, not a held-out accuracy result. We still need independent validation.”
+
+Slide 7 — Live demo | 3:15–4:25
+
+“Let's try: ‘Find a quiet, affordable café with outdoor seating.’
+
+The system extracts those preferences, retrieves semantically relevant places, ranks them, and explains the matches.
+
+The point is not just to return a café. It's to show why each result fits the request.”
+
+Demo actions:
+
+1. Enter the prompt.
+2. Show the extracted preferences.
+3. Show the top recommendations.
+4. Open one explanation.
+
+Slide 8 — Limitations and conclusion | 4:25–5:00
+
+“This is a working prototype, not a live city-wide data platform.
+
+The demo dataset includes synthetic data. There is no live Google Places integration, persistent user profile, or feedback loop yet.
+
+Next steps are verified live data, user feedback, and held-out model validation.
+
+The goal is straightforward: better-fit recommendations with less searching.
+
+Thank you.”
+
+### Delivery notes
+
+1. Keep the demo to approximately 70 seconds. If the app is slow, explain the pipeline and move on.
+2. Don't claim the LoRA classifier is accurate yet. The supplied metric is training loss only.
+3. Don't describe synthetic demo records as real venues.
+4. If asked about evaluation, explain that the project includes a recommendation-evaluation framework, but no final metric values are being presented.
+
+Timing: Aim for 4:40 in rehearsal. That leaves 20 seconds of breathing room.
